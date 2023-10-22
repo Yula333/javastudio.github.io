@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    background: linear-gradient(270deg,#6161e4 0%, #c5a2f0 90%);
+}
+
+.btn-outline-primary {
+    background-color:#c5a2f0  ;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(145, 150, 150);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(210, 81, 42);
+
+}
+
+.navbar-brand img{
+    width: 40px;
+    
+}
+
+.navbar-toggler {
+    background-color: rgb(153, 150, 150);
+}
+
+.card-img-top {
+    height: 20em;
+}
+
+.sidebar, .card {
+    background: linear-gradient(270deg, #6161e4 0%, #c5a2f0 90%);
+}
+
+.slide-text {
+    margin: auto auto;
+}
+
+.col-lg-12>p {
+    padding-top:  15px;
+}
+
+@media (max-width: 770px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.footer-text {
+    color: rgb(49, 49, 49);
+    font-size: 0.7em;
+}
+
+.media-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: myAnim 2s ease 0s infinite normal forwards; 
+ }
+ 
+ @keyframes myAnim {
+        0%,
+        100% {
+            transform: rotate(0deg);
+            transform-origin: 50% 0;
+        }
+    
+        10% {
+            transform: rotate(2deg);
+        }
+    
+        20%,
+        40%,
+        60% {
+            transform: rotate(-4deg);
+        }
+    
+        30%,
+        50%,
+        70% {
+            transform: rotate(4deg);
+        }
+    
+        80% {
+            transform: rotate(-2deg);
+        }
+    
+        90% {
+            transform: rotate(2deg);
+        }
+    }
